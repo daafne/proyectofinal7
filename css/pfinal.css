@@ -1,0 +1,1213 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+html {
+	scroll-behavior: smooth;
+
+}
+
+body{
+	display: flex;
+	
+	font-family: 'Josefin Sans', sans-serif;	
+}
+
+.tituloWeb{
+	width:40%;
+	height:50px;
+
+	background-image: url("../imagenes/dafne.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.puñetero{
+	display: flex;
+	padding: 13px;
+}
+
+.switchAlt{
+	display: none;
+}
+
+.switch-content {
+	position: relative;
+    width: 140px;
+}
+.menubola{
+	display: flex;
+    position: absolute;
+}
+.label{
+	height: 70px;
+    background-color: #79B2D2;
+    padding: 20px;
+    gap: 40px;
+    border-radius: 90px;
+    display: flex;
+    position: relative;
+}
+.label img{
+	width:30px;
+}
+.checkbox{
+	position: absolute;
+    opacity: 0;
+}
+.ball{
+	cursor: pointer;
+	position: absolute;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(218, 125, 177);
+    transition: all 1s ease-in-out;
+}
+body.dark{
+	background-color: #A98CC6;
+}
+body.dark .contenido.aboutme{
+	 background-color: #A98CC6;
+}
+body.dark .recentworks{
+	background-color: #A98CC6;
+}
+body.dark .services{
+	background-color: #A98CC6;
+}
+
+body.dark .secundaria{
+	background-color: #A98CC6; 
+}
+
+body.dark .getintouch{
+	background-color: #A98CC6; 
+
+}
+.checkbox:checked + .label .ball {
+    transform: translate(60px);
+    background-color:#A98CC6;
+}
+#home{
+	background-color: #E998;
+}
+
+.conjunto{
+	display: flex;
+	flex-direction: column;
+	width: 80vw;
+}
+	
+.conjunto section .contenido{
+	max-width:1000px;
+	margin:auto;
+	padding: 50px 0;
+}
+
+.portada{
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	align-items: center;
+	/* gap: 85px; */
+	width:100%;
+	height: 100vh;
+	position: relative;
+	flex-wrap: wrap;
+
+}
+
+
+
+.portada h1 {
+	color: white;
+	font-size: 25px;
+}
+.portada h2{
+	color: white;
+	font-size: 50px;
+}
+
+a{
+text-decoration: none;
+}
+.menutodo{
+	background-color: #E998C6;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+    width: 20vw;
+	max-width: 250px;
+}
+
+
+
+.menu{
+	
+	flex-direction: column;
+    width: 20vw;
+    display: flex;
+	max-width: 250px;
+}
+
+.conjuntomenu{
+	
+	display: flex;
+    flex-direction: column;
+    left: 0;
+    position: fixed;
+    top: 25%;
+    align-items: center;
+
+}
+	
+.redessociales1{
+	display:flex;
+	justify-content: center;
+}
+.img1{
+	width: 30px;
+	height: 30px;
+}
+.menu h1{
+	
+	font-size: 15px;
+	color: white;
+}
+
+.animation{
+	display: flex;
+	gap: 5px;
+}
+
+.animation p{
+	color: white;
+	font-size: 15px;
+}
+.recutext{
+	
+	animation-name: flipInX; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-iteration-count:infinite;
+		
+
+	 
+}
+
+.cliente{
+	width: 200px;
+    padding: 40px;
+}
+  
+
+
+
+.user{
+	width: 50%;
+}
+
+.textoppal{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.tituloicono{
+	display: flex;
+	gap: 7px;
+	padding: 13px;
+	align-items: center;
+}
+
+.iconito{
+	width: 24px;
+}
+
+.layer{
+	position:relative;
+}
+
+
+
+.textocamara{
+	display: flex;
+	gap:10px;
+}
+.camara1{
+	width: 30px;
+	height: 20px;
+}
+.animation p{
+	font-size: 25px;
+}
+.fraseautor{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+.fraseautor h1{
+	font-size: 20px;
+}
+.fraseautor h2{
+	font-size: 20px;
+}
+
+.redessociales{
+	display: flex;
+	gap: 20px;
+
+}
+.icono{
+	width: 30px;
+	height: 30px;
+}
+.boton{
+	border-radius: 50px;
+    background-color:#79B2D2;
+    font-size: 24px;
+    color: white;
+    padding: 15px;
+    width: 226px;
+}
+
+/*los hovers por algun motivo no funcionan*/
+.boton:hover {
+	cursor: pointer;
+    background-color: #E998C6;
+}
+
+
+
+.tituloimagenbocadillo{
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	gap: 37px;
+}
+
+.tituloimagenbocadillo h1 {
+	font-size: 30px;
+}
+
+	
+
+.tituloimagen h1{
+	font-size: 18px;
+}
+.sombra{
+	
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	box-shadow: inset 0 -1em 1em rgba(0,0,0,0.1), 0 0 0 1px rgb(255,255,255), 0.3em 0.1em 1em rgba(0,0,0,0.3);
+
+}
+.bocadillo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap:30px;
+	padding: 77px;
+
+}
+.camarastexto{
+	display: flex;
+}
+.textoboton2{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.textoboton2 h1{
+
+	font-size: 20px;
+
+}
+.textoboton2 .boton1{
+	
+	background-color:#FE4C62 ;
+	font-size: 15px;
+	width: 180px;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+
+.user2{
+	width: 250px;
+}
+
+.aboutme{
+	min-height: 100vh;
+	background-color: white;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+    gap: 20px;
+}
+
+
+.titleab{
+	display: flex;
+    justify-content: center;
+	font-size: 45px;
+}
+.titulosvisitas{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 25px;
+}
+
+
+.tituloporc{
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	
+}
+
+
+
+.camarabout{
+	width: 200px;
+    height: 150px;
+}
+
+
+.conjuntoiconotexto{
+	
+	display: flex;
+    gap: 15px;
+    width: calc(100%/2 - 20px);
+}
+		
+	  
+
+
+.textonumero{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.textonumero h1{
+	font-size: 35px;
+}
+.iconos3{
+	width: 40px;
+	height: 40px;
+}
+
+
+.services{
+	background-color: white;
+	padding: 110px;
+}
+
+.titulo{
+	
+	font-size: 15px;
+	padding: 32px;
+	
+}
+.titulo h1{
+	display: flex;
+    justify-content: center;
+}
+.cajaservices{
+	max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+	
+    position: relative;
+    left: 150px;
+}
+
+
+.fotocomentario{
+	width: 150px;
+	height: 150px;
+}
+.ui{
+	background-color:#79B2D2;
+
+}
+.caja1 h1{
+	color: white;
+}
+.caja1 p{
+	color: white;
+}
+.deve{
+	background-color:#87CDD5
+}
+
+.ph{
+	background-color: #F19DCD;
+
+}
+
+.rd{
+background-color: #A98CC6;
+}
+
+.ms{
+	background-color: #8F74C8;
+}
+
+
+.caja1{
+	gap: 10px;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100%/3 - 20px);
+}
+
+
+.e{
+	width: 20px;
+	height: 20px;
+}
+.m{
+	width: 20px;
+	height: 20px;
+}
+.experience{
+	width: 100%;
+	background-color: white;
+	
+}
+.tituloe{
+	font-size: 30px;
+    padding: 30px;
+}
+
+.conjuntoexperience{
+	display: flex;
+    gap: 41px;
+    padding: 62px
+}
+
+.exp1{
+	display: flex;
+    flex-direction: column;
+	gap: 15px;
+	padding: 30px;
+	font-size: 10px;
+}
+.exp1 h1{
+	font-size: 24px;
+}
+
+.iconofecha{
+	display: flex;
+	gap:10px;
+}
+
+.cajaexp1{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 20px;
+
+}
+.cajaexp2{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 20px;
+
+}
+
+.recentworks{
+	max-width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+	display: flex;
+	background-color: white;
+	flex-direction: column;
+	width: 100%;
+	gap: 50px;
+  
+}
+
+.recentworks h1{
+	font-size: 30px;
+}
+
+.textportfolio{
+	display: flex;
+    justify-content: center;
+
+}
+
+.pestañastodo{
+	display: flex;
+	font-size: 20px;
+	gap: 17px;
+	cursor: pointer;
+}
+
+.tarjeta{
+	position: relative;
+    width: calc(100%/3 - 20px);
+    display: flex;
+}
+
+.w1{
+
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	width: 30%;
+	height: 30%;
+	border-radius: 20px;
+}
+.vol1{
+	
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+	
+	
+
+.vol1 img{
+	width: 100%;
+   
+}
+
+.vol1 .imagenestarjeta{
+	
+	width: 10%;
+	height: 100%;
+	position: relative;
+	top: 50px;
+	left: 25px;
+	
+}
+#icono1{
+	width: 100%;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+.creativew1{
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+	width: 100%;
+
+
+}
+.texto1{
+	display: flex;
+	flex-direction: column;
+}
+
+#modal{
+    width: 80vw;
+    height: 80vh;
+	margin:auto;
+    
+    background-color: #e998c6;;
+}
+
+.modalContent{
+	width: 100%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+  
+
+.mod{
+	width: 80%;
+	height:80%;
+
+	margin: auto;
+    
+    
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.botones{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+	
+	height: 30px;
+}
+
+
+.botones div{
+	height: 100%;
+	width: 60px;
+	cursor: pointer;
+}
+.der{
+	width: 20px;
+	transform: rotate(-90deg);
+}
+
+
+.izq{
+	width: 20px;
+	transform: rotate(90deg);
+
+}
+
+
+#popup:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.iconomodal{
+    width: 50%;
+    height: 50%;
+}
+
+.close{
+	cursor: pointer;
+	position: absolute;
+	top:10px;
+    right: 10px;
+    border-radius: 50%;
+    background-color: pink;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+	padding: 10px;
+}
+  
+
+.getstarted{
+	background-color: #FE4C62; 
+	border-radius: 20px;
+	padding: 10px;
+	color: white;
+}
+.getstarted:hover{
+	cursor: pointer;
+	background-color: pink;
+}
+.clientsreviews{
+	background-color: white;
+	display: flex;
+    flex-direction: column;
+	min-height: 60vh;
+}
+
+.clientsall{
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+}
+.textclients{
+	display: flex;
+    justify-content: center;
+
+	padding: 50px;
+}
+.conjuntoimgtext{
+	display:flex;
+	padding: 15px;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+}
+
+.secundaria{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    gap: 40px;
+    padding: 15px;
+	border-radius: 10px;
+}
+
+.logo1{
+	width: 200px
+}
+.derecha{
+    transform:translateX(0px);
+    transition: all 1s ease;
+
+}
+.izquierda{
+    transform:translateX(-250px);
+    transition: all 1s ease;
+}
+.capamascara{
+    background-color: violet;
+    width: 250px;
+    overflow-x: hidden;  
+    
+}
+.users{
+    display: flex;
+    
+    width: 500px;
+}
+    
+.user1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+  
+
+.iconitou{
+    width: 200px;
+    height: 200px;
+}
+.textous{
+    width: 200px;
+    height: 100px;
+
+    border-radius: 20px;
+    gap:20px;
+
+    background-color: honeydew;
+    
+    display: flex;
+    align-items: center;
+}
+
+
+.cajabotones{
+    display: flex;
+    gap:15px;
+}
+
+.botonrojo_izq{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    background-color: coral;    
+}
+.botonrojo_der{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    background-color: coral;
+    
+}
+
+.marcas{
+	gap: 29px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.filan1{
+	display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imgclientss{
+	width: 45px;
+}
+.filan2{
+	display: flex;
+    justify-content: space-evenly;
+}
+.latestposts{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	
+}
+.latestposts h1{
+	padding: 50px;
+    font-size: 30px;
+}
+
+.imagenespost{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding: 12px;
+}
+
+.dentroimpost{
+	border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+	padding: 3px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+.dentroimpost:hover{
+	width: 110%;
+	cursor: pointer;
+}
+	
+
+.titlepost{
+	font-size: 20px;
+}
+.textpost{
+	display: flex;
+	gap:10px;
+}
+.textpost h2{
+	font-size: 20px;
+}
+
+.imgp{
+	width: 350px;
+}
+.services{
+	background-color: white;
+    padding: 110px;
+    position: relative;
+    left: 20px;
+}
+
+.getintouch{
+    
+	display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+	
+.gettexto{
+	display: flex;
+    justify-content: center;
+	font-size: 30px;
+	gap:10px;
+}
+
+.nombre{
+	
+	display: flex;
+    justify-content: center;
+    font-size: 15px;
+	padding: 40px;
+	
+}
+.getchange{
+	position:relative;
+	bottom: 10px;
+	font-size: 20px;
+}
+.getchange h2{
+	font-size: 10px;
+}
+
+
+
+
+.conjunto2{
+	gap:20px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.doscajas{
+	display: flex;
+	gap: 40px;
+}
+
+.cajaget{
+	background-color: beige;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	border-radius: 30px;
+	padding: 20px;
+}
+	
+
+.borderinput{
+
+	font-size: 20px;
+	border-style: none;
+	padding: 15px;
+	background-color: beige;
+}
+textarea.borderinput{
+	height: 221px;
+    width: 659px;
+}
+
+
+.botonget{
+	background-color: #79B2D2;
+	border-radius: 20px;
+	padding: 15px;
+	width: 200px;
+}
+.botonget{
+	color: white;
+	text-align: center;
+}
+.botonget:hover{
+	cursor: pointer;
+	background-color:#F19DCD;
+}
+
+@media(max-width:800px){
+	.menu article h1{
+		display: none;
+	}
+
+	.menu{
+		width: 10vw;
+		align-items: center;
+	}
+
+	.menutodo{
+		width:10vw;
+	}
+
+	.conjunto{
+		width:90vw;
+	}
+
+	.redessociales1{
+		flex-direction: column;
+		gap:20px;
+	}
+
+	.conjuntomenu{
+	
+		align-items: center;
+	
+	}
+}
+
+
+
+@media(max-width:900px){
+	
+	.secundaria{
+		flex-direction: column;
+
+	}
+
+	.conjunto section .contenido {
+		display: flex;
+		max-width: 700px;
+	
+	}
+	.switchAlt{
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.switchAlt img{
+		width: 20px;
+    	height: 20px;
+    	padding: 0px;
+	}
+
+	.switchAlt .luna{
+		display: none;
+	}
+
+	.solEsconder{
+		display: none;
+	}
+
+	.switchAlt .luna.lunaActivar{
+		display: inline-flex;
+	}
+
+	.puñetero{
+		display: none;
+	}
+	.caja1{
+		width: 205px;
+    	height: 197px;
+	}
+	.conjunto2{
+		gap: 20px;
+    	display: flex;
+    	flex-direction: column;
+    	width: 90%;
+		padding: 30px;
+	}
+	
+	.getintouch{
+		height:95vh;
+	}
+	.doscajas {
+		display: flex;
+		gap: 40px;
+		flex-direction: column;
+	}
+	textarea.borderinput{
+		width: 100%;
+	}
+	}
+
+	
+
+
+
+@media(max-width:1280px){
+		.conjunto{
+			display: flex;
+			flex-direction: column;
+			width: 80vw;
+			gap: 30px;
+		}
+		
+		.user{
+			width: 300px;
+		}
+
+		.titleab{
+			
+			text-align: center;
+			font-size: 80px;
+				
+		}
+		.textoppal{
+			
+			/* justify-content: center;
+			align-items: center; */
+		}
+		.textoppal h2{
+			font-size: 20px;
+
+		}
+		.aboutme h1{
+			text-align: center;
+			font-size: 40px;
+		}
+		.aboutme h2{
+			text-align: center;
+			font-size: 20px;
+
+		}
+				
+				
+
+		.aboutme{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+				
+		}
+
+		.sombra{
+			
+			border-radius: 10px;
+			display: flex;
+			align-items: center;
+			box-shadow: none;
+		}
+		
+		.tituloimagenbocadillo{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			
+			
+		}
+		.user2{
+			width: 300px;
+		}
+		.textoboton2{
+			align-items: center;
+		}
+			
+		.titulosvisitas{
+			display:none;
+		}
+
+		.services{
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			height: 100%;
+			
+		}
+
+		.services .cajaservices {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 10px;
+			position: relative;
+			left: 10px;
+		}
+
+		.services .titulo{
+			text-align: center;
+			font-size: 20px;
+		}
+		.tarjeta{
+			width: calc(100%/2 - 20px);
+		}
+		.caja1{
+			gap: 10px;
+			border-radius: 30px;
+			padding: 40px;
+			box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.caja1 img{
+			width: 30px;
+			height: 30px;
+		}
+		.fotocomentario h1{
+			font-size: 15px;
+		}
+
+		.caja1 h1{
+			font-size: 15px;
+		}
+
+		.customjob{
+
+			align-items: center;
+		}
+
+		.experience{
+			display: flex;
+			flex-direction: column;
+			width: 100%;
