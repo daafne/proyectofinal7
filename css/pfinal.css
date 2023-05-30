@@ -464,7 +464,10 @@ text-decoration: none;
 }
 
 .rd{
-background-color: #A98CC6;
+background-color:#9374b3;
+}
+.dark.caja1.rd{
+	background-color: #755794;
 }
 
 .ms{
@@ -604,7 +607,8 @@ background-color: #A98CC6;
 }
 #icono1{
 	width: 100%;
-    pointer-events: auto;
+	height:  93%;
+	pointer-events: auto;
     cursor: pointer;
 }
 
@@ -704,22 +708,11 @@ background-color: #A98CC6;
 	padding: 10px;
 }
   
-
-.getstarted{
-	background-color: #FE4C62; 
-	border-radius: 20px;
-	padding: 10px;
-	color: white;
-}
-.getstarted:hover{
-	cursor: pointer;
-	background-color: pink;
-}
 .clientsreviews{
 	background-color: white;
 	display: flex;
     flex-direction: column;
-	min-height: 60vh;
+	min-height: 40vh;
 }
 
 .clientsall{
@@ -743,7 +736,8 @@ background-color: #A98CC6;
 }
 
 .secundaria{
-    width: 100%;
+    max-width: 700px;
+    margin: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -810,19 +804,7 @@ background-color: #A98CC6;
     gap:15px;
 }
 
-.botonrojo_izq{
-    cursor: pointer;
-    width: 10px;
-    height: 10px;
-    background-color: coral;    
-}
-.botonrojo_der{
-    cursor: pointer;
-    width: 10px;
-    height: 10px;
-    background-color: coral;
-    
-}
+
 
 .marcas{
 	gap: 29px;
@@ -1004,12 +986,14 @@ textarea.borderinput{
 		flex-direction: column;
 		gap:20px;
 	}
+	
 
 	.conjuntomenu{
 	
 		align-items: center;
 	
 	}
+	
 }
 
 
@@ -1018,6 +1002,15 @@ textarea.borderinput{
 	
 	.secundaria{
 		flex-direction: column;
+
+	}
+	.clientsall{
+	display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 
 	}
 
@@ -1065,6 +1058,16 @@ textarea.borderinput{
     	width: 90%;
 		padding: 30px;
 	}
+	.vol1{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.clientsreviews{
+		min-height: 60vh;
+	}
 	
 	.getintouch{
 		height:95vh;
@@ -1077,10 +1080,16 @@ textarea.borderinput{
 	textarea.borderinput{
 		width: 100%;
 	}
+
 	}
 
 	
 
+@media(max-width:1224px){
+	.vol1{
+		padding: 30px;
+}
+	}
 
 
 @media(max-width:1280px){
@@ -1101,11 +1110,7 @@ textarea.borderinput{
 			font-size: 80px;
 				
 		}
-		.textoppal{
-			
-			/* justify-content: center;
-			align-items: center; */
-		}
+		
 		.textoppal h2{
 			font-size: 20px;
 
@@ -1211,3 +1216,5 @@ textarea.borderinput{
 			display: flex;
 			flex-direction: column;
 			width: 100%;
+		}
+	}
