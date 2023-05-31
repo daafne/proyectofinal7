@@ -1264,6 +1264,9 @@ textarea.borderinput{
 			width: 142px;
 
 		}
+		.clientsreviews{
+			min-height: 70vh;
+		}
 	}
 	
 	
