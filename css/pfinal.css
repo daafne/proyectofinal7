@@ -126,9 +126,6 @@ body.dark .getintouch{
 	flex-wrap: wrap;
 
 }
-
-
-
 .portada h1 {
 	color: white;
 	font-size: 25px;
@@ -668,7 +665,6 @@ background-color:#9374b3;
 	height: 30px;
 }
 
-
 .botones div{
 	height: 100%;
 	width: 60px;
@@ -888,8 +884,6 @@ background-color:#9374b3;
     align-items: center;
     justify-content: center;
 }
-
-	
 .gettexto{
 	display: flex;
     justify-content: center;
@@ -913,10 +907,6 @@ background-color:#9374b3;
 .getchange h2{
 	font-size: 10px;
 }
-
-
-
-
 .conjunto2{
 	gap:20px;
 	display: flex;
@@ -935,7 +925,6 @@ background-color:#9374b3;
 	padding: 20px;
 }
 	
-
 .borderinput{
 
 	font-size: 20px;
@@ -947,8 +936,6 @@ textarea.borderinput{
 	height: 221px;
     width: 659px;
 }
-
-
 .botonget{
 	background-color: #79B2D2;
 	border-radius: 20px;
@@ -963,16 +950,6 @@ textarea.borderinput{
 	cursor: pointer;
 	background-color:#F19DCD;
 }
-
-
-
-
-
-
-
-
-
-
 
 @media(max-width:1280px){
 		.conjunto{
@@ -1196,7 +1173,7 @@ textarea.borderinput{
 	@media(max-width:800px){
 		img .user{
 			width: 20%;
-		}
+	}
 	.menu article h1{
 		display: none;
 	}
@@ -1228,65 +1205,74 @@ textarea.borderinput{
 				
 	}
 	@media(max-width:575px){
-		.fraseautor{
-			display: none;
-		}
+	.fraseautor{
+		display: none;
+	}
 	}
 		
 	@media(max-width:400px){
-		.contenido.portada{
-			gap:10px;
-		}
-		img .user{
-			width: 170px;
-		}
+	.contenido.portada{
+		gap:10px;
+	}
+	img .user{
+		width: 170px;
+	}
 		.textoppal{
-			gap: 13px;
-		}
+		gap: 13px;
+	}
 		.user2{
-			width: 250px;
-		}
+		width: 250px;
+	}
 		.contenido.aboutme{
-			font-size: clamp(23px,24px,36px);
-		}
+		font-size: clamp(23px,24px,36px);
+	}
 		.textoboton2 p {
-			font-size: clamp(8px,15px,30px);
-		}
-		.tituloimagen{
-			gap:6px;
-		}
-		.bocadillo{
+		font-size: clamp(8px,15px,30px);
+	}
+	.tituloimagen{
+		gap:6px;
+	}
+	.bocadillo{
 		padding: 34px;
     	align-items: center;
-		}
-		article.tarjeta{
-			width: 256px;
+	}
+	article.tarjeta{
+		width: 256px;
 
-		}
-		.contactame{
+	}
+	.contactame{
 		width: 100%;
     	height: 100%;
 
-		}
-		.borderinput{
-			width: 142px;
+	}
+	.borderinput{
+		width: 142px;
 
-		}
-		.clientsreviews{
-			min-height: 70vh;
-		}
+	}
+	.clientsreviews{
+		min-height: 70vh;
+	}
 	}
 	@media(max-width:376px){
-		.clientsreviews{
-			min-height: 63vh;
-		}
-		.cajaget{
-			text-align: center;
-			width: 221px;
-		}
-		.getintouch{
+	#modal{
+		width: 100vw;
+    	height: 45vh;
+	}
+	.close{
+		border-radius: 27px;
+    	font-size: 20px;
+    	padding: 10px
+	}
+	.clientsreviews{
+		min-height: 63vh;
+	}
+	.cajaget{
+		text-align: center;
+		width: 221px;
+	}
+	.getintouch{
 		padding: 56px;
-   		 height: 100vh;
+   		height: 100vh;
     	text-align: center;
 	}
 }
