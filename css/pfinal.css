@@ -1198,6 +1198,13 @@ textarea.borderinput{
 		height: 100vh;
 	}
 	}
+	@media(max-width:840px){
+	section.clientsreviews{
+			position: relative;
+			left: 6px;
+	
+	}
+	}
 	@media(max-width:800px){
 	img .user{
 		width: 20%;
@@ -1240,13 +1247,7 @@ textarea.borderinput{
 	}
 				
 	}
-	@media(max-width:840px){
-	section.clientsreviews{
-		position: relative;
-    	left: 6px;
-
-	}
-	}
+	
 	@media(max-width:700px){
 		.portada{
 			padding: 8px;
@@ -1358,6 +1359,14 @@ textarea.borderinput{
 		border-radius: 27px;
     	font-size: 20px;
     	padding: 10px
+	}
+	.botones{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 30px;
+		position: relative;
+		left: 18px;
 	}
 	.logo1{
 		width: 80px;
