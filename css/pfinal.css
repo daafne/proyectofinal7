@@ -1344,6 +1344,9 @@ textarea.borderinput{
 	}
 	}
 	@media(max-width:376px){
+	.conjunto{
+		gap: 40px
+	}
 	.contenido.aboutme{
 		padding: 50px;
 	}
@@ -1368,8 +1371,8 @@ textarea.borderinput{
 		width: 175px;
 	}
 	.conjunto2{
-	position: relative;
-    right: 21px;
+		display: flex;
+		align-items: center;
 	
 	}
 	.gettexto{
@@ -1381,5 +1384,8 @@ textarea.borderinput{
 		padding: 56px;
    		height: 100vh;
     	text-align: center;
+	}
+	.contactame{
+		padding: 10px;
 	}
 }
