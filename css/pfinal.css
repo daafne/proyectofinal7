@@ -297,7 +297,7 @@ text-decoration: none;
 
 	justify-content: center;
 	align-items: center;
-	gap: 37px;
+	gap: 40px;
 }
 
 .tituloimagenbocadillo h1 {
@@ -964,132 +964,14 @@ textarea.borderinput{
 	background-color:#F19DCD;
 }
 
-@media(max-width:800px){
-	.menu article h1{
-		display: none;
-	}
-
-	.menu{
-		width: 10vw;
-		align-items: center;
-	}
-
-	.menutodo{
-		width:10vw;
-	}
-
-	.conjunto{
-		width:90vw;
-	}
-
-	.redessociales1{
-		flex-direction: column;
-		gap:20px;
-	}
-	
-
-	.conjuntomenu{
-	
-		align-items: center;
-	
-	}
-	
-}
 
 
 
-@media(max-width:900px){
-	
-	.secundaria{
-		flex-direction: column;
 
-	}
-	.clientsall{
-	display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
 
-	}
 
-	.conjunto section .contenido {
-		display: flex;
-		max-width: 700px;
-	
-	}
-	.switchAlt{
-		display: inline-flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 10px;
-	}
 
-	.switchAlt img{
-		width: 20px;
-    	height: 20px;
-    	padding: 0px;
-	}
 
-	.switchAlt .luna{
-		display: none;
-	}
-
-	.solEsconder{
-		display: none;
-	}
-
-	.switchAlt .luna.lunaActivar{
-		display: inline-flex;
-	}
-
-	.puñetero{
-		display: none;
-	}
-	.caja1{
-		width: 205px;
-    	height: 197px;
-	}
-	.conjunto2{
-		gap: 20px;
-    	display: flex;
-    	flex-direction: column;
-    	width: 90%;
-		padding: 30px;
-	}
-	.vol1{
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		align-items: center;
-	}
-
-	.clientsreviews{
-		min-height: 60vh;
-	}
-	
-	.getintouch{
-		height:95vh;
-	}
-	.doscajas {
-		display: flex;
-		gap: 40px;
-		flex-direction: column;
-	}
-	textarea.borderinput{
-		width: 100%;
-	}
-
-	}
-
-	
-
-@media(max-width:1224px){
-	.vol1{
-		padding: 30px;
-}
-	}
 
 
 @media(max-width:1280px){
@@ -1218,3 +1100,157 @@ textarea.borderinput{
 			width: 100%;
 		}
 	}
+	@media(max-width:1224px){
+		.vol1{
+		padding: 30px;
+	}
+	}
+	@media(max-width:900px){
+	
+	.secundaria{
+		flex-direction: column;
+		
+	}
+	.clientsall{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		
+	}
+		
+	.conjunto section .contenido {
+		display: flex;
+		max-width: 700px;
+			
+	}
+	.switchAlt{
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px;
+	}
+		
+	.switchAlt img{
+		width: 20px;
+		height: 20px;
+		padding: 0px;
+	}
+		
+	.switchAlt .luna{
+		display: none;
+	}
+		
+	.solEsconder{
+		display: none;
+	}
+		
+	.switchAlt .luna.lunaActivar{
+		display: inline-flex;
+	}
+		
+	.puñetero{
+		display: none;
+	}
+	.caja1{
+		width: 205px;
+		height: 197px;
+	}
+	.conjunto2{
+		gap: 20px;
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		padding: 30px;
+	}
+	.vol1{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+		
+	.clientsreviews{
+		min-height: 60vh;
+	}
+			
+	.getintouch{
+		height:95vh;
+	}
+	.doscajas {
+		display: flex;
+		gap: 40px;
+		flex-direction: column;
+	}
+	textarea.borderinput{
+		width: 100%;
+	}
+		
+	}
+	
+	@media(max-width:800px){
+		img .user{
+			width: 20%;
+		}
+	.menu article h1{
+		display: none;
+	}
+			
+	.menu{
+		width: 10vw;
+		align-items: center;
+	}
+			
+	.menutodo{
+		width:10vw;
+	}
+			
+	.conjunto{
+		width:90vw;
+	}
+			
+	.redessociales1{
+		flex-direction: column;
+		gap:20px;
+	}
+				
+			
+	.conjuntomenu{
+				
+		align-items: center;
+				
+	}
+				
+	}
+		
+	@media(max-width:400px){
+		.contenido.portada{
+			gap:10px;
+		}
+		img .user{
+			width: 20%;
+		}
+		.textoppal{
+			gap: 13px;
+		}
+		.user2{
+			width: 250px;
+		}
+		.contenido.aboutme{
+			font-size: clamp(23px,24px,36px);
+		}
+		.textoboton2 p {
+			font-size: clamp(8px,15px,30px);
+		}
+		.tituloimagen{
+			gap:6px;
+		}
+		.bocadillo{
+		padding: 34px;
+    	align-items: center;
+		}
+	}
+	
+	
