@@ -1263,6 +1263,9 @@ textarea.borderinput{
     	font-size: 20px;
     	padding: 10px
 	}
+	.logo1{
+		width: 80px;
+	}
 	.clientsreviews{
 		min-height: 63vh;
 	}
