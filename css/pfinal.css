@@ -1343,6 +1343,18 @@ textarea.borderinput{
 	.clientsreviews{
 		min-height: 70vh;
 	}
+	.conjunto2{
+		display: flex;
+    	align-items: center;
+	}
+	.doscajas{
+		width: 248px;
+	}
+	}
+	@media(max-width:398px){
+		.doscajas{
+			width: 253px;
+		}
 	}
 	@media(max-width:376px){
 	.conjunto{
@@ -1397,4 +1409,14 @@ textarea.borderinput{
 	.contactame{
 		padding: 10px;
 	}
-}
+	.doscajas{
+		width: 178px;
+
+	}
+
+	}
+	@media(max-width:340px){
+		.doscajas{
+			width: 172px;
+		}
+	}
