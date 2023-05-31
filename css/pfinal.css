@@ -908,6 +908,7 @@ background-color:#9374b3;
 	font-size: 10px;
 }
 .conjunto2{
+	width: 700px;
 	gap:20px;
 	display: flex;
 	flex-direction: column;
@@ -984,8 +985,6 @@ textarea.borderinput{
 
 		}
 				
-				
-
 		.aboutme{
 			display: flex;
 			flex-direction: column;
@@ -1134,6 +1133,9 @@ textarea.borderinput{
 	.puñetero{
 		display: none;
 	}
+	.redessociales1{
+		gap: 6px;
+	}
 	.caja1{
 		width: 205px;
 		height: 197px;
@@ -1170,12 +1172,41 @@ textarea.borderinput{
 		
 	}
 	
+	@media(max-width:1185px){
+		.doscajas{
+			width: 400px;
+		}
+	}
+	@media(max-width:900px){
+	.tituloimagenbocadillo{
+		gap:0px;
+	}
+	.conjunto{
+		gap:10px;
+	}
+	.recentworks{
+		gap:10px;
+	}
+	.tarjeta{
+		width: fit-content;
+	
+	}
+	.clientsreviews{
+		min-height: 70vh;
+	}
+	.contactame{
+		height: 100vh;
+	}
+	}
 	@media(max-width:800px){
-		img .user{
-			width: 20%;
+	img .user{
+		width: 20%;
 	}
 	.menu article h1{
 		display: none;
+	}
+	.textoppal{
+		padding: 10px;
 	}
 			
 	.menu{
@@ -1202,14 +1233,73 @@ textarea.borderinput{
 		align-items: center;
 				
 	}
+	.gettexto{
+		position: relative;
+    	top: 33px;
+
+	}
 				
+	}
+	@media(max-width:840px){
+	section.clientsreviews{
+		position: relative;
+    	left: 6px;
+
+	}
+	}
+	@media(max-width:700px){
+		.portada{
+			padding: 8px;
+		}
+	}
+	@media(max-width:667px){
+		.fraseautor{
+		display: none;
+
+	}
 	}
 	@media(max-width:575px){
 	.fraseautor{
 		display: none;
 	}
 	}
-		
+	@media(max-width:554px){
+	section.clientsreviews{
+		position: relative;
+    	left: 6px;
+	}
+	}
+	@media(max-width:490px){
+	.clientsreviews{
+		position: relative;
+    	left: 25px;
+	}
+	}
+	@media(max-width:484px){
+	.clientsreviews{
+		position: relative;
+    	left: 31px;
+	}
+	.conjunto2{
+		width: 300px;
+	}
+	.doscajas{
+		width: 333px;
+	}
+	.cajaget{
+		 width: 256px;
+	}
+	.borderinput{
+		width: 176px;
+	}
+	}
+	@media(max-width:480px){
+	.clientsreviews{
+		position: relative;
+    	left: 25px;
+
+	}
+	}	
 	@media(max-width:400px){
 	.contenido.portada{
 		gap:10px;
@@ -1254,6 +1344,9 @@ textarea.borderinput{
 	}
 	}
 	@media(max-width:376px){
+	.contenido.aboutme{
+		padding: 50px;
+	}
 	#modal{
 		width: 100vw;
     	height: 45vh;
@@ -1267,11 +1360,22 @@ textarea.borderinput{
 		width: 80px;
 	}
 	.clientsreviews{
-		min-height: 63vh;
+		min-height: 49vh;
+		padding: 30px
 	}
 	.cajaget{
 		text-align: center;
 		width: 175px;
+	}
+	.conjunto2{
+	position: relative;
+    right: 21px;
+	
+	}
+	.gettexto{
+	position: relative;
+    top: 24px;
+
 	}
 	.getintouch{
 		padding: 56px;
