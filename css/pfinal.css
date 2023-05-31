@@ -132,10 +132,11 @@ body.dark .getintouch{
 .portada h1 {
 	color: white;
 	font-size: 25px;
+	font-size: clamp(10px, 15px, 20px);
 }
 .portada h2{
 	color: white;
-	font-size: 50px;
+	font-size: clamp(15px, 20px, 50px);
 }
 
 a{
@@ -260,10 +261,10 @@ text-decoration: none;
 
 }
 .fraseautor h1{
-	font-size: 20px;
+	font-size: clamp(15px,20px,40px);
 }
 .fraseautor h2{
-	font-size: 20px;
+	font-size: clamp(15px,20px,40px);
 }
 
 .redessociales{
@@ -277,11 +278,10 @@ text-decoration: none;
 }
 .boton{
 	border-radius: 50px;
-    background-color:#79B2D2;
-    font-size: 24px;
+    background-color: #79B2D2;
     color: white;
-    padding: 15px;
-    width: 226px;
+    padding: 21px;
+    width: 156px;
 }
 
 /*los hovers por algun motivo no funcionan*/
@@ -335,17 +335,11 @@ text-decoration: none;
 }
 .textoboton2 h1{
 
-	font-size: 20px;
+	font-size: clamp(10px, 20px, 30px);
 
 }
-.textoboton2 .boton1{
-	
-	background-color:#FE4C62 ;
-	font-size: 15px;
-	width: 180px;
-	border-radius: 10px;
-	padding: 10px;
-
+.textoboton2 p{
+	font-size: clamp(10px,20px,30px);
 }
 
 .user2{
@@ -418,7 +412,9 @@ text-decoration: none;
 
 .services{
 	background-color: white;
-	padding: 110px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .titulo{
@@ -441,7 +437,7 @@ text-decoration: none;
     justify-content: center;
 	
     position: relative;
-    left: 150px;
+    
 }
 
 
@@ -880,9 +876,8 @@ background-color:#9374b3;
 }
 .services{
 	background-color: white;
-    padding: 110px;
-    position: relative;
-    left: 20px;
+    flex-direction: column;
+    display: flex;
 }
 
 .getintouch{
