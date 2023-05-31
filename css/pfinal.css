@@ -706,10 +706,13 @@ background-color:#9374b3;
 }
   
 .clientsreviews{
-	background-color: white;
-	display: flex;
+	margin: 100px;
+    background-color: white;
+    display: flex;
     flex-direction: column;
-	min-height: 40vh;
+    min-height: 49vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .clientsall{
