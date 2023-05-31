@@ -1104,6 +1104,9 @@ textarea.borderinput{
 		.vol1{
 		padding: 30px;
 	}
+	.getintouch{
+		padding: 56px;
+	}
 	}
 	@media(max-width:900px){
 	
@@ -1223,6 +1226,11 @@ textarea.borderinput{
 				
 	}
 				
+	}
+	@media(max-width:575px){
+		.fraseautor{
+			display: none;
+		}
 	}
 		
 	@media(max-width:400px){
