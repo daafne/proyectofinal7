@@ -1276,5 +1276,17 @@ textarea.borderinput{
 			min-height: 70vh;
 		}
 	}
-	
-	
+	@media(max-width:376px){
+		.clientsreviews{
+			min-height: 63vh;
+		}
+		.cajaget{
+			text-align: center;
+			width: 221px;
+		}
+		.getintouch{
+		padding: 56px;
+   		 height: 100vh;
+    	text-align: center;
+	}
+	}
