@@ -1336,6 +1336,9 @@ textarea.borderinput{
 		}
 	}
 	@media(max-width:376px){
+	.user{
+		width: 250px;
+	}
 	.conjunto{
 		gap: 0px;
 	}
