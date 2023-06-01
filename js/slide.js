@@ -11,8 +11,7 @@ const galeria1 = [
     "./imagenes/pasarela22/pasarela10.jpg",
     "./imagenes/pasarela22/pasarela11.jpg",
     "./imagenes/pasarela22/pasarela12.jpg",
-    "./imagenes/pasarela22/pasarela13.jpg"
-    
+    "./imagenes/pasarela22/pasarela13.jpg"    
 ];
 
 const galeria2 = [
@@ -28,7 +27,6 @@ const galeria2 = [
     "./imagenes/alicia21/alicia10.jpg",
     "./imagenes/alicia21/alicia11.jpg",
     "./imagenes/alicia21/alicia12.jpg",
-    "./imagenes/alicia21/alicia13.jpg",
     "./imagenes/alicia21/alicia14.jpg",
     "./imagenes/alicia21/alicia15.jpg",
     "./imagenes/alicia21/alicia16.jpg",
@@ -155,7 +153,6 @@ const galeria6 = [
     "./imagenes/metro18/metro9.jpg",
     "./imagenes/metro18/metro10.jpg",
     "./imagenes/metro18/metro11.jpg"
-
 ];
 const galeria7 = [
     "./imagenes/noe18/noe1.jpg",
@@ -172,8 +169,6 @@ const galeria7 = [
     "./imagenes/noe18/noe12.jpg",
     "./imagenes/noe18/noe13.jpg",
     "./imagenes/noe18/noe14.jpg",
-    "./imagenes/noe18/noe15.jpg",
-    "./imagenes/noe18/noe16.jpg",
     "./imagenes/noe18/noe17.jpg",
     "./imagenes/noe18/noe18.jpg",
     "./imagenes/noe18/noe19.jpg",
