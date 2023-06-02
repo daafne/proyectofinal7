@@ -10,14 +10,19 @@ html {
 }
 
 body{
-	display: flex;
+	font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    overflow-x: hidden;
 	
-	font-family: 'Josefin Sans', sans-serif;	
+	
 }
 
 .tituloWeb{
-	width:40%;
+	width:27%;
 	height:50px;
+	position: relative;
+    left: 46px;
+
 
 	background-image: url("../imagenes/dafnecompleto.svg");
 	background-size: contain;
@@ -27,7 +32,7 @@ body{
 
 .puñetero{
 	display: flex;
-    padding: 23px;
+    padding: 23px 0px
 }
 
 
@@ -102,11 +107,16 @@ body.dark .getintouch{
 }
 
 .conjunto{
+	flex: 1 1 80%;
+
+}
+
+/* .conjunto{
 	display: flex;
 	flex-direction: column;
 	width: 86vw;
 	min-width: 400px;
-}
+} */
 	
 .conjunto section .contenido{
 	max-width:1000px;
@@ -137,10 +147,23 @@ body.dark .getintouch{
 	font-size: clamp(15px, 20px, 50px);
 }
 
-a{
-text-decoration: none;
+.menu ul li a{
+
+	text-decoration: none;
+    width: 80%;
 }
+
 .menutodo{
+
+	flex:1 1 20%;
+	background-color: #E998C6;
+	min-width: 200px;
+    max-width: 250px;
+
+
+}
+
+/* .menutodo{
 	background-color: #E998C6;
     left: 0px;
     display: flex;
@@ -149,20 +172,33 @@ text-decoration: none;
     width: 20vw;
 	max-width: 250px;
 	min-width: 60px;
-}
+} */
 
 
 
 .menu{
 	
 	flex-direction: column;
-    width: 20vw;
     display: flex;
 	max-width: 250px;
-	gap: 10px;
+}
+.menu ul{
+	list-style: none;
 }
 
 .conjuntomenu{
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    flex-direction: column;
+    width: 20%;
+    min-width: 200px;
+    max-width: 250px;
+	
+}
+
+/* .conjuntomenu{
 	
 	display: flex;
     flex-direction: column;
@@ -172,12 +208,13 @@ text-decoration: none;
     align-items: center;
 	min-width: 60px;
 
-}
+} */
 	
 .redessociales1{
-	display:flex;
-	justify-content: center;
-	gap:10px;
+	display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .img1{
 	width: 30px;
@@ -960,8 +997,6 @@ textarea.borderinput{
 		.conjunto{
 			display: flex;
 			flex-direction: column;
-			width: 81vw;
-			gap: 30px;
 		}
 		
 		.user{
@@ -1172,13 +1207,16 @@ textarea.borderinput{
 			width: 400px;
 		}
 	}
+	@media(max-width:1050){
+		body{
+			overflow-x: none;
+		}
+	}
 	@media(max-width:900px){
 	.tituloimagenbocadillo{
 		gap:0px;
 	}
-	.conjunto{
-		gap:10px;
-	}
+	
 	.recentworks{
 		gap:10px;
 	}
@@ -1198,6 +1236,8 @@ textarea.borderinput{
 		
 	.tituloWeb{
 		background-image: url("../imagenes/dBlanco.svg");
+		position: relative;
+    	left: 2px;
 	}
 	img .user{
 		width: 20%;
@@ -1216,11 +1256,14 @@ textarea.borderinput{
 	}
 			
 	.menutodo{
-		width:10vw;
+		min-width: 77px;
+    	width: 10%;
 	}
+	
 			
 	.conjunto{
-		min-width: 320px;
+		
+   	 	flex: 1 1 80%;
 	}
 			
 	.redessociales1{
@@ -1232,6 +1275,8 @@ textarea.borderinput{
 	.conjuntomenu{
 				
 		align-items: center;
+    	min-width: 77px;
+    	width: 10%;
 				
 	}
 	.gettexto{
