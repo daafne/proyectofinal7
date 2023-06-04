@@ -1448,3 +1448,8 @@ textarea.borderinput{
 			width: 172px;
 		}
 	}
+	@media(max-width:330px){
+		.clientsreviews{
+			min-height: 57vh;
+		}
+	}
